@@ -322,169 +322,97 @@
                 grid-template-columns: 1fr;
             }
         }
+
+    .content-section {
+      max-width: 1000px;
+      margin: 120px auto 40px;
+      padding: 0 1rem;
+    }
+    .content-section h1, .content-section h2 {
+      color: var(--navy);
+      margin-top: 1.5rem;
+    }
+    .content-section p {
+      margin: 0.5rem 0 1rem;
+    }
+    a { color: var(--navy); text-decoration: none; }
     </style>
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <nav class="nav-container">
-            <div class="logo">
-                Image Craft Consulting
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#csr">CSR</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="mobile-menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo">Image Craft Consulting</div>
+      <ul class="nav-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#csr">CSR</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Empowering Democracy</h1>
-            <p>Leading Political Consultancy & CSR Solutions for Modern Bharat</p>
-            <a href="#services" class="cta-button">Discover Our Services</a>
+  <!-- Terms Content -->
+  <main class="content-section">
+    <h1>Terms & Conditions</h1>
+    <p>These Terms & Conditions govern the use of our website and services.</p>
+
+    <h2>Acceptance of Terms</h2>
+    <p>By using our website, you agree to comply with these terms and all applicable laws.</p>
+
+    <h2>Use of Services</h2>
+    <p>Our services must be used for lawful purposes only. Misuse or unauthorized use is strictly prohibited.</p>
+
+    <h2>Intellectual Property</h2>
+    <p>All content, logos, and materials on this site are the property of Image Craft Consulting. Unauthorized use is prohibited.</p>
+
+    <h2>Limitation of Liability</h2>
+    <p>We are not liable for damages arising from use or inability to use our services, except as required by law.</p>
+
+    <h2>Changes to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. Updates will be posted on this page.</p>
+
+    <h2>Contact Us</h2>
+    <p>For questions, please contact us at <a href="mailto:admin03@iccservices.in">admin03@iccservices.in</a>.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Image Craft Consulting</h3>
+          <p>Leading political consultancy and CSR solutions provider committed to strengthening Indian democracy and social development.</p>
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🗳️</div>
-                    <h3>Political Campaign Strategy</h3>
-                    <p>Comprehensive campaign planning, voter analysis, and strategic messaging tailored for Indian constituencies. We understand the diverse political landscape of India.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Electoral Analytics</h3>
-                    <p>Data-driven insights using advanced analytics to understand voter behavior, demographic trends, and regional political dynamics across India.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3>Digital Campaigns</h3>
-                    <p>Modern digital outreach strategies including social media management, WhatsApp campaigns, and mobile-first voter engagement platforms.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🎯</div>
-                    <h3>Constituency Management</h3>
-                    <p>Effective constituency relationship management, public grievance handling, and community engagement programs for elected representatives.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🏛️</div>
-                    <h3>Policy Advisory</h3>
-                    <p>Expert policy consultation aligned with Indian governance frameworks, constitutional provisions, and regional requirements.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📺</div>
-                    <h3>Media Relations</h3>
-                    <p>Strategic media management including press relations, crisis communication, and public image building in the Indian media landscape.</p>
-                </div>
-            </div>
+        <div>
+          <h3>Services</h3>
+          <p>Political Strategy</p>
+          <p>Campaign Management</p>
+          <p>CSR Implementation</p>
+          <p>Policy Advisory</p>
         </div>
-    </section>
-
-    <!-- CSR Section -->
-    <section id="csr" class="csr-section">
-        <div class="container">
-            <h2 class="section-title" style="color: white;">Corporate Social Responsibility</h2>
-            <div class="csr-grid">
-                <div class="csr-card">
-                    <h3>Education Initiatives</h3>
-                    <p>Supporting digital literacy programs, skill development centers, and educational infrastructure in rural and semi-urban areas across India.</p>
-                </div>
-                <div class="csr-card">
-                    <h3>Healthcare Programs</h3>
-                    <p>Mobile healthcare units, telemedicine initiatives, and health awareness campaigns focusing on maternal health and preventive care.</p>
-                </div>
-                <div class="csr-card">
-                    <h3>Environmental Conservation</h3>
-                    <p>Tree plantation drives, waste management programs, and renewable energy projects supporting India's climate goals.</p>
-                </div>
-                <div class="csr-card">
-                    <h3>Women Empowerment</h3>
-                    <p>Self-help group formation, entrepreneurship training, and financial inclusion programs for women in rural communities.</p>
-                </div>
-                <div class="csr-card">
-                    <h3>Rural Development</h3>
-                    <p>Infrastructure development, water conservation projects, and agricultural modernization initiatives supporting farmer communities.</p>
-                </div>
-                <div class="csr-card">
-                    <h3>Digital India Support</h3>
-                    <p>Digital literacy programs, e-governance support, and technology access initiatives aligning with Digital India vision.</p>
-                </div>
-            </div>
+        <div>
+          <h3>Contact Info</h3>
+          <p>Akhil Srivastava</p>
+          <p>📍 New Delhi, India</p>
+          <p>📞 +91-9454849201</p>
+          <p>📧 admin03@iccservices.in</p>
         </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3 id="campaigns">150+</h3>
-                    <p>Successful Campaigns</p>
-                </div>
-                <div class="stat-item">
-                    <h3 id="states">28</h3>
-                    <p>States Covered</p>
-                </div>
-                <div class="stat-item">
-                    <h3 id="csr-projects">300+</h3>
-                    <p>CSR Projects</p>
-                </div>
-                <div class="stat-item">
-                    <h3 id="beneficiaries">50L+</h3>
-                    <p>Lives Impacted</p>
-                </div>
-            </div>
+        <div>
+          <h3>Quick Links</h3>
+          <p><a href="privacy.html" style="color: white;">Privacy Policy</a></p>
+          <p><a href="terms.html" style="color: white;">Terms of Service</a></p>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <h3>Image Craft Consulting</h3>
-                    <p>Leading political consultancy and CSR solutions provider committed to strengthening Indian democracy and social development.</p>
-                </div>
-                <div>
-                    <h3>Services</h3>
-                    <p>Political Strategy</p>
-                    <p>Campaign Management</p>
-                    <p>CSR Implementation</p>
-                    <p>Policy Advisory</p>
-                </div>
-                <div>
-                    <h3>Contact Info</h3>
-                    <p>Akhil Srivastava</p>
-                    <p>📍 New Delhi, India</p>
-                    <p>📞 +91-9454849201</p>
-                    <p>📧 admin03@iccservices.in</p>
-                </div>
-                <div>
-                    <h3>Quick Links</h3>
-                    <p><a href="privacy.html" style="color: white; text-decoration: none;">Privacy Policy</a></p>
-                    <p><a href="terms.html" style="color: white; text-decoration: none;">Terms of Service</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Image Craft Consulting. All rights reserved. | Serving Bharat with Integrity</p>
-            </div>
-        </div>
-    </footer>
-
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Image Craft Consulting. All rights reserved. | Serving Bharat with Integrity</p>
+      </div>
+    </div>
+  </footer>
     <script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
